@@ -45,15 +45,19 @@ A Streamlit-based intelligent chatbot that converts **natural language dealershi
     OPENROUTER_API_KEY=your_openrouter_api_key
     ```
   - This key is used by `ChatOpenAI` client via the `ChatOpenRouter` subclass to connect seamlessly.
-| Parameter             | Value                                   |
-| --------------------- | --------------------------------------- |
-| **Context Length**    | 164,000 tokens                          |
-| **Max Output Tokens** | 164,000 tokens                          |
-| **Latency**           | \~2.75 seconds                          |
-| **Throughput**        | \~38.44 tokens/second                   |
-| **Cost**              | Free (via OpenRouter)                   |
-| **Location**          | US-based (fallback providers included)  |
-| **Uptime**            | High availability with fallback routing |
+Context Length: 164,000 tokens
+
+Max Output Tokens: 164,000 tokens
+
+Latency: approximately 2.75 seconds
+
+Throughput: approximately 38.44 tokens per second
+
+Cost: Free (accessed via OpenRouter)
+
+Location: US-based (includes fallback providers)
+
+Uptime: High availability with fallback routing
 
 
 ---
